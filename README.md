@@ -13,7 +13,7 @@ AutoHotKey script to turn screen on and off with keyboard shortcut
 ## Installation
 
 1. Download [AutoHotKey](https://www.autohotkey.com/)
-2. Download [Toggle screen script](https://github.com/ArturTkaczuk/toggle-screen-autohotkey/blob/main/toggle%20screen.ahk) script (click download icon)  
+2. Download [Toggle screen script](https://github.com/ArturTkaczuk/toggle-screen-autohotkey/blob/main/Toggle%20screen.ahk) script (click download icon)  
 ![Download icon](https://github.com/ArturTkaczuk/toggle-screen-autohotkey/assets/87656238/e027faf0-5736-43b5-9649-392fcd7dca8a)
 
 Run on system autostart - script will start when You will start your operating system (optional) :
