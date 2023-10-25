@@ -1,69 +1,33 @@
-# Website
+# Control sound autohotkey
 
-One of my first projects. Simple game made in JS, CSS & HTML to learn coding. Check it [Live here](https://smash-the-insect.netlify.app/)
+Autohotkey script to turn screen on and off with a shortcut
 
 ## Table of Contents
 
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Technologies](#technologies)
-- [Features](#features)
-- [Support](#support)
-- [Contributing](#contributing)
-- [License](#license)
-
-## Requirements
-
-- Latest web browser to run app on website ([Google Chrome](https://www.google.com/intl/en_en/chrome/))
-- To run git commands you need [Git](https://git-scm.com/downloads) installed
-- To run npm commands you need [node](https://nodejs.org/en/download/) installed
 
 ## Installation
 
-**a) Download project via git**
+1. Download [AutoHotKey](https://www.autohotkey.com/)
+2. Download [Volume numpad.ahk](https://github.com/ArturTkaczuk/control-sound-autohotkey/blob/main/Volume%20numpad.ahk) script (click raw -> right click -> save as...)
 
-Run commands in terminal:
+Run on system autostart (optional) :
 
-```sh
-git clone project-name.github.com
-cd project-name
-npm install
-```
+1. Click "Windows" + "R" on keyboard
+2. Write: `shell:common startup`
 
-**b) Download project manually from GitHub**
+![Autostart](https://user-images.githubusercontent.com/87656238/175783449-e15d7430-b2b4-44d3-a0ae-91c694d8d942.jpg)
 
-1. Download project from [this link](https://github.com/ArturTkaczuk/project-template/archive/refs/heads/main.zip)
-2. Run index.html to open app in browser
+3. Drag Volume numpad.ahk script to the Autostart folder
 
 ## Usage
 
-Useful commands - run in project's directory:
-1. Dev server `npm run start`
-2. Production build `npm run build`
+Open script
 
-## Technologies
+***Mute*** - `Shift` + `*`
 
-Technologies used during development process:
+***Volume up*** - `Shift` + `+`
 
-- Vanilla JS
-- SCSS
-- HTML
-
-## Features
-
-- timer
-- score counter
-
-## Support
-
-Please [open an issue](https://github.com/ArturTkaczuk/insect-game/issues) for support.
-
-## Contributing
-
-Please contribute using [Github Flow](https://guides.github.com/introduction/flow/). Create a branch, add commits, and [open a pull request](https://github.com/ArturTkaczuk/insect-game/compare).
-
-## License
->You can check out the full license [here](https://github.com/ArturTkaczuk/insect-game/blob/main/LICENSE).
-
-This project is licensed under the terms of the ***MIT license***.
+***Volume down*** - `Shift` + `-`
