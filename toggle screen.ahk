@@ -6,7 +6,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 screenToggle := false
 
-f2::
+#f2:: ; <- change this (currently shortcut is shift & f2)
 	screenToggle := !screenToggle
 	setTimer, screenOff, % screenToggle ? 250 : "off" ; % sign is for accessing variables
 	return
