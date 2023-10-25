@@ -1,6 +1,6 @@
-# Control sound autohotkey
+# Toggle screen autohotkey
 
-Autohotkey script to turn screen on and off with a shortcut
+AutoHotKey script to turn screen on and off with keyboard shortcut
 
 ## Table of Contents
 
